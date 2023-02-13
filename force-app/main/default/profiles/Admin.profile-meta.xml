@@ -10,19 +10,23 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>Application</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>RecipIngredient__c.Ingredients__c</field>
+        <field>RecipeIngredient__c.Ingredients__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>RecipIngredient__c.Recipe_Name__c</field>
+        <field>RecipeIngredient__c.Recipe_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>RecipIngredient__c-Recipe Ingradient Layout</layout>
+        <layout>RecipeIngredient__c-Recipe Ingradient Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30,11 +34,11 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>RecipIngredient__c</object>
+        <object>RecipeIngredient__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>RecipIngredient__c</tab>
+        <tab>RecipeIngredient__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
