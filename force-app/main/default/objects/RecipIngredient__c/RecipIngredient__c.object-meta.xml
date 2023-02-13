@@ -149,18 +149,18 @@
     <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Recipe Ingradient</label>
+    <label>Recipe Ingredient</label>
     <nameField>
         <displayFormat>R-{0000}</displayFormat>
         <label>Recipe Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Recipe Ingradients</pluralLabel>
+    <pluralLabel>Recipe Ingredient</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

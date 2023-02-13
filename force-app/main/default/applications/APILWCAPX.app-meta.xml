@@ -13,6 +13,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>API-LWC-APX</label>
     <navType>Standard</navType>
+    <tabs>RecipIngredient__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>API_LWC_APX_UtilityBar</utilityBar>
 </CustomApplication>
