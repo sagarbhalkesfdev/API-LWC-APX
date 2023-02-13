@@ -1,9 +1,13 @@
 import { LightningElement } from "lwc";
 
 export default class FirstLwcComponent extends LightningElement {
-  greeting = "Good Afternoon";
+  greeting = "";
 
   get getGreetings() {
-    return this.greeting;
+    return new Date().getHours() < 12
+      ? "Good Morning"
+      : new Date().getHours() < 18
+      ? "Good Afternoon"
+      : "Good Evening";
   }
 }
