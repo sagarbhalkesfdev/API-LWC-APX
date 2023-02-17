@@ -1,0 +1,41 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 02-16-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+  <lightning-card title="Search Recipe">
+    <lightning-layout>
+      <lightning-layout-item
+        padding="horizontal-small"
+        size="2"
+        flexibility="auto"
+      >
+        <lightning-input
+          type="text"
+          variant="standard"
+          name="serchRecipe"
+          placeholder="Search Recipe"
+        ></lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item
+        padding="horizontal-small"
+        size="1"
+        class="slds-var-p-top_medium"
+        flexibility="auto"
+      >
+        <lightning-button
+          class="slds-m-left_x-small"
+          variant="brand"
+          label="Search"
+          title="Search"
+          onclick={handleClick}
+        >
+        </lightning-button>
+      </lightning-layout-item>
+    </lightning-layout>
+  </lightning-card>
+  <c-all-recipes></c-all-recipes>
+</template>
