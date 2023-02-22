@@ -2,7 +2,7 @@
  * @description       :
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             :
- * @last modified on  : 02-17-2023
+ * @last modified on  : 02-18-2023
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
  **/
 @namespaceAccessible
@@ -19,6 +19,6 @@ public class Application {
 
   @namespaceAccessible
   public static final fflib_Application.SelectorFactory Selector = new fflib_Application.SelectorFactory(
-    new Map<SObjectType, Type>{ RecipeIngredient__c.SObjectType => Recipe }
+    new Map<SObjectType, Type>{}
   );
 }
