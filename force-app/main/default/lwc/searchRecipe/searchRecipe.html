@@ -2,7 +2,7 @@
   @description       : 
   @author            : ChangeMeIn@UserSettingsUnder.SFDoc
   @group             : 
-  @last modified on  : 02-16-2023
+  @last modified on  : 02-23-2023
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
 <template>
@@ -35,7 +35,29 @@
         >
         </lightning-button>
       </lightning-layout-item>
+
+      <lightning-layout-item
+        padding="horizontal-small"
+        size="2"
+        class="slds-var-p-top_medium"
+        flexibility="auto"
+      >
+        <lightning-button
+          class="slds-m-left_x-small"
+          variant="brand"
+          label="Show All Recipes"
+          title="Show All Recipes"
+          onclick={showAllRecipes}
+        >
+        </lightning-button>
+      </lightning-layout-item>
     </lightning-layout>
   </lightning-card>
-  <c-all-recipes></c-all-recipes>
+  <template if:true={allRecipes}>
+    <c-all-recipes></c-all-recipes>
+  </template>
+
+  <template if:true={searchRecipe}>
+    <c-show-search-recipe></c-show-search-recipe>
+  </template>
 </template>

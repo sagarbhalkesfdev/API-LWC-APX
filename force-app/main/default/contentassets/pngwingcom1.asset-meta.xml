@@ -2,7 +2,7 @@
 <ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
     <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
     <language>en_US</language>
-    <masterLabel>sletterlogopng868</masterLabel>
+    <masterLabel>pngwingcom1</masterLabel>
     <relationships>
         <organization>
             <access>VIEWER</access>
@@ -11,7 +11,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>s-letter-logo-png-868.png</pathOnClient>
+            <pathOnClient>pngwing.com.png</pathOnClient>
         </version>
     </versions>
 </ContentAsset>
