@@ -50,12 +50,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>firstLwcComponent</componentName>
-                <identifier>c_firstLwcComponent</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
                 <componentName>home:assistant</componentName>
                 <identifier>home_assistant</identifier>
             </componentInstance>

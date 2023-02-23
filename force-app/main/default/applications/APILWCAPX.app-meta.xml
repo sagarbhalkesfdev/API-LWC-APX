@@ -2,9 +2,9 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>sletterlogopng868</logo>
+        <logo>pngwingcom1</logo>
         <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
@@ -13,7 +13,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>API-LWC-APX</label>
     <navType>Standard</navType>
-    <tabs>RecipIngredient__c</tabs>
+    <tabs>RecipeIngredient__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>API_LWC_APX_UtilityBar</utilityBar>
 </CustomApplication>
